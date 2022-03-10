@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer{
+    width: 60%;
+    height: auto;
+    padding: 24px;
+    border: 2px solid rgb(8, 85, 8);
+    box-shadow: 0px 0px 10px rgb(136 136 136);
+    border-radius: 8px;
+}
+
+.containerHeader{
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.inputContainer{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 24px;
+}
+
+.innerContainer input{
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    height: 100%;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 12px #d1cccc;
+    border-radius: 8px;
+}
+
+.loginButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(102deg, #57ad5b 0%, #085e14 100%);
+    border-radius: 8px;
+    color: white;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background: linear-gradient(102deg, #69a062 0%, #096b09 100%);
+}
+
+.registerText{
+    margin: 0;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.registerCta{
+    color: #1f0cc2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.errorText{
+    margin: 0;
+    font-family: cursive;
+    font-size: 12px;
+    color: red;
+}
